@@ -1,5 +1,7 @@
 "use strict";
 
-var Kicioutek = function(){
-   alert("ja chcę tą grę!!!");
+var Kicioutek = function () {
+    this.win = function () {
+        console.log("Ja chcę tą grę!!");
+    };
 };
